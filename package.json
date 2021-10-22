@@ -1,35 +1,17 @@
 {
-  "name": "freshjs",
+  "name": "rainbow-role-main",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "AMIN#0101",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "dependencies": {
-    "ascii-table": "0.0.9",
-    "axios": "^0.23.0",
-    "canvas": "^2.8.0",
-    "common-tags": "^1.8.0",
-    "console": "^0.7.2",
-    "discord-buttons": "^3.2.1",
-    "discord-canvas": "^1.4.1",
-    "discord-economy": "^1.2.2",
-    "discord.js": "^12.5.3",
-    "fs": "0.0.1-security",
-    "mathjs": "^9.5.1",
-    "moment": "^2.29.1",
-    "ms": "^2.1.3",
-    "node-modules": "^1.0.1",
-    "os": "^0.1.2",
-    "parse-ms": "^3.0.0",
-    "quick.db": "^7.1.3",
-    "random-puppy": "^1.1.0",
-    "sourcebin_js": "0.0.3-ignore",
-    "superagent": "^6.1.0",
-    "twemoji-parser": "^13.1.0"
+    "discord.js": "^12.5.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "start": "node index.js"
+  }
 }
