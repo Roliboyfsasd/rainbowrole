@@ -1,6 +1,5 @@
 const { Client, version } = require('discord.js');
 const { 
-    token, 
     serverID, 
     roleID, 
     interval 
