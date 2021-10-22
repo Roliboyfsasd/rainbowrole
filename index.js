@@ -22,7 +22,7 @@ bot.on("ready", async() => {
     }, interval)
 
     bot.user.setPresence({
-        status: 'idle',
+        status: 'Online',
         activity: {
             name: 'Szinvaltos rang',
             type: 'PLAYING',
